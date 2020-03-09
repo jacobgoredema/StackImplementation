@@ -27,7 +27,7 @@ public:
 	void Size();
 };
 
-// initialize the top of Stack to p0 using default constructor
+// initialize the top of Stack top using default constructor
 Stack::Stack()
 {
 	top = 0;
@@ -119,9 +119,9 @@ int main(array<System::String ^> ^args)
 
 	while (1)
 	{
-		std::cout << "*=================================================================================================================*" << std::endl;
+		std::cout << "*===========================================================================================*" << std::endl;
 		std::cout << "1.Push	2.POP	3.Display	4.ISFULL	5.ISEMPTY	6.TOP	7.SIZE	8.EXIT" << std::endl;
-		std::cout << "*====================================================================================================================*" << std::endl;
+		std::cout << "*===========================================================================================*" << std::endl;
 
 		std::cin >> character;
 		if (character == 1)
